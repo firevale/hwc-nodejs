@@ -1,0 +1,23 @@
+{
+  "files.exclude": {
+    "node_modules": true
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.enable": true, //Enable eslint
+  "eslint.options": {
+    "extensions": [ //List of file extensions to activate eslint
+      ".js",
+      ".ts",
+      ".jsx"
+    ]
+  },
+  "eslint.validate": [
+    "javascript",
+  ],
+  "eslint.run": "onSave",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
