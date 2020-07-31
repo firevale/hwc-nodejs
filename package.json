@@ -1,6 +1,6 @@
 {
-  "name": "esdk-cdn-nodejs",
-  "version": "0.0.1",
+  "name": "hwc-nodejs",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
